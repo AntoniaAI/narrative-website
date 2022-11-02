@@ -11477,7 +11477,7 @@ header.masthead .masthead-heading {
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 8rem;
-    padding-bottom: 3rem;
+    padding-bottom: 10rem;
   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
@@ -11528,7 +11528,7 @@ header.masthead .masthead-heading {
   }
 }
 .projects-section .project-text {
-  padding: 3rem;
+  padding: 1rem;
   font-size: 90%;
 }
 @media (min-width: 992px) {
