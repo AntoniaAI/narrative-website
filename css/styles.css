@@ -11330,7 +11330,7 @@ p {
 }
 
 .page-section {
-  padding: 5rem 0;
+  padding: 2rem 0;
 }
 section#services {
   padding: 1rem 0 0;
@@ -11356,7 +11356,12 @@ section#featurette {
 
 @media (min-width: 768px) {
   section {
-    padding: 9rem 0;
+    padding: 0rem 0;
+  }
+
+  #myVideo {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
   }
 }
 .btn-xl {
@@ -11471,8 +11476,8 @@ header.masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 17rem;
-    padding-bottom: 12.5rem;
+    padding-top: 8rem;
+    padding-bottom: 3rem;
   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
@@ -11484,8 +11489,61 @@ header.masthead .masthead-heading {
     font-size: 4.5rem;
     font-weight: 700;
     line-height: 4.5rem;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
   }
+
+  /* Text Banner*/
+
+.banner-text-heading {
+  color:#ffffff;
+  text-transform: uppercase;
+}
+
+.banner-heading-background {
+  background-color: #9a1c69;
+}
+
+.banner-divider {
+  color:#ffffff;
+}
+
+.banner-paragraph {
+  color:#ffffff;
+}
+
+/* End of Text Banner*/
+
+* Project images from Greyscale template */
+
+.projects-section {
+  padding: 1rem 0;
+}
+.projects-section .featured-text {
+  padding: 2rem;
+}
+@media (min-width: 992px) {
+  .projects-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #64a19d;
+  }
+}
+.projects-section .project-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+@media (min-width: 992px) {
+  .projects-section .project-text {
+    padding: 5rem;
+  }
+  .projects-section .project-text hr {
+    border-color: #64a19d;
+    border-width: 0.25rem;
+    width: 30%;
+  }
+}
+
+/* End of project image styling from Greyscale template*/
+
 }
 #portfolio .portfolio-item {
   max-width: 26rem;
