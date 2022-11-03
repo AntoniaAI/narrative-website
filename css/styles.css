@@ -11340,11 +11340,13 @@ section#portfolio {
 }
 section#featurette {
   padding-bottom: 2rem;
+  padding-top: 5rem;
 }
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
   margin-top: 0;
   margin-bottom: 1rem;
+  padding-top: 2rem;
 }
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
   font-size: 1rem;
@@ -11360,7 +11362,7 @@ section#featurette {
   }
 
   #myVideo {
-    margin-top: 5rem;
+    margin-top: 0rem;
     margin-bottom: 2rem;
   }
 }
@@ -11474,6 +11476,7 @@ header.masthead .masthead-heading {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 8rem;
@@ -11485,11 +11488,20 @@ header.masthead .masthead-heading {
     line-height: 2.25rem;
     margin-bottom: 2rem;
   }
+
   header.masthead .masthead-heading {
     font-size: 4.5rem;
     font-weight: 700;
     line-height: 4.5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 11rem;
+    margin-top: 14rem;
+  }
+
+  /*main page snippet*/
+
+  blockquote {
+    font-style: italic;
+    color: #482f87;
   }
 
   /* Text Banner*/
