@@ -11361,10 +11361,6 @@ section#featurette {
     padding: 0rem 0;
   }
 
-  #myVideo {
-    margin-top: 0rem;
-    margin-bottom: 2rem;
-  }
 }
 .btn-xl {
   padding: 1.25rem 2.5rem;
@@ -11498,6 +11494,14 @@ header.masthead .masthead-heading {
     margin-top: 14rem;
   }
 
+  .bg-whitecat {
+    background-color: white;
+
+  }
+
+  .bg-bluecat {
+    background-color: lightskyblue;
+  }
   /*main page snippet*/
 
   blockquote {
