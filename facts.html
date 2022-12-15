@@ -27,120 +27,139 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="page-one.html">Page One</a></li>
-                        <li class="nav-item"><a class="nav-link" href="page-two.html">Page Two</a></li>
-                        <li class="nav-item"><a class="nav-link" href="page-three.html">Page Three</a></li>
-                        <li class="nav-item"><a class="nav-link" href="page-four.html">Page Four</a></li>
+                        <li class="nav-item"><a class="nav-link" href="homepage.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="characteristics.html">Characteristics</a></li>
+                        <li class="nav-item"><a class="nav-link" href="personality-traits.html">Personality & Traits</a></li>
+                        <li class="nav-item"><a class="nav-link" href="cat-care.html">Cat Care</a></li>
+                        <li class="nav-item"><a class="nav-link" href="facts.html">Facts</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead">
-            <div class="container">
-                <div class="masthead-heading text-uppercase">Characteristics</div>
+        <header>
+
+            <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
+            <div class="overlay"></div>
+          
+            <!-- The HTML5 video element that will create the background video on the header -->
+            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+              <source src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" type="video/mp4">
+            </video>
+          
+            <!-- The header content -->
+            <div class="container h-100">
+              <div class="d-flex h-100 text-center align-items-center">
+                <div class="w-100 text-white">
+                  <h1 class="display-3">Video Header</h1>
+                  <p class="lead mb-0">Using HTML5 Video and Bootstrap</p>
+                </div>
+              </div>
             </div>
-        </header>
-   
-<!-- START THE FEATURETTES -->
-<section class="page-section bg-light" id="featurette">
-    <div class="container">
-<div class="container mt-5">
-<hr class="featurette-divider">
-<h2 class="my-4">Featurette</h2>
-<div class="row featurette">
-  <div class="col-md-7">
-    <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-  </div>
-  <div class="col-md-5">
-    <img class="featurette-image img-fluid mx-auto" src="https://source.unsplash.com/RCAhiGJsUUE/500x500" alt="Generic placeholder image">
-  </div>
-</div>
-
-<hr class="featurette-divider">
-
-<div class="row featurette">
-  <div class="col-md-7 order-md-2">
-    <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-  </div>
-  <div class="col-md-5 order-md-1">
-    <img class="featurette-image img-fluid mx-auto" src="https://source.unsplash.com/RCAhiGJsUUE/500x500" alt="Generic placeholder image">
-  </div>
-</div>
-
-<hr class="featurette-divider">
-
-<div class="row featurette">
-  <div class="col-md-7">
-    <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-  </div>
-  <div class="col-md-5">
-    <img class="featurette-image img-fluid mx-auto" src="https://source.unsplash.com/RCAhiGJsUUE/500x500" alt="Generic placeholder image">
-  </div>
-</div>
-
-<hr class="featurette-divider">
-</div>
-<!-- /END THE FEATURETTES -->
-<div class="container ratio ratio-16x9">
-    <iframe src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" title="YouTube video" allowfullscreen></iframe>
-  </div>
-        <!-- Team-->
-        <section class="page-section blight" id="team">
-            <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Key Characteristics</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
-                            <h4>Title</h4>
-                            <p class="text-muted">Text</p>
-                        </div>
+          </header>
+          
+      <!-- Blog preview section-->
+      <section class="py-5">
+        <div class="container px-5 my-5">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-8 col-xl-6">
+                    <div class="text-center">
+                        <h2 class="fw-bolder">From our blog</h2>
+                        <p class="lead fw-normal text-muted mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque fugit ratione dicta mollitia. Officiis ad.</p>
                     </div>
-                    <div class="col-lg-3">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
-                            <h4>Title</h4>
-                            <p class="text-muted">Text</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
-                            <h4>Title</h4>
-                            <p class="text-muted">Text</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
-                            <h4>Title</h4>
-                            <p class="text-muted">Text</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
                 </div>
             </div>
-        </section>
-<!-- Services-->
-<section class="page-section" id="services">    
-    <div class="row text-center">
-        <div class="col-md-15">
-             <a class="btn btn-primary btn-xl text-uppercase" href="page-two.html">Next Page</a> 
+            <div class="row gx-5">
+                <div class="col-lg-4 mb-5">
+                    <div class="card h-100 shadow border-0">
+                        <img class="card-img-top" src="https://dummyimage.com/600x350/ced4da/6c757d" alt="..." />
+                        <div class="card-body p-4">
+                            <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
+                            <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Blog post title</h5></a>
+                            <p class="card-text mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                            <div class="d-flex align-items-end justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
+                                    <div class="small">
+                                        <div class="fw-bold">Kelly Rowan</div>
+                                        <div class="text-muted">March 12, 2022 &middot; 6 min read</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <div class="card h-100 shadow border-0">
+                        <img class="card-img-top" src="https://dummyimage.com/600x350/adb5bd/495057" alt="..." />
+                        <div class="card-body p-4">
+                            <div class="badge bg-primary bg-gradient rounded-pill mb-2">Media</div>
+                            <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Another blog post title</h5></a>
+                            <p class="card-text mb-0">This text is a bit longer to illustrate the adaptive height of each card. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                            <div class="d-flex align-items-end justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
+                                    <div class="small">
+                                        <div class="fw-bold">Josiah Barclay</div>
+                                        <div class="text-muted">March 23, 2022 &middot; 4 min read</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <div class="card h-100 shadow border-0">
+                        <img class="card-img-top" src="https://dummyimage.com/600x350/6c757d/343a40" alt="..." />
+                        <div class="card-body p-4">
+                            <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
+                            <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">The last blog post title is a little bit longer than the others</h5></a>
+                            <p class="card-text mb-0">Some more quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                        <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
+                            <div class="d-flex align-items-end justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
+                                    <div class="small">
+                                        <div class="fw-bold">Evelyn Martinez</div>
+                                        <div class="text-muted">April 2, 2022 &middot; 10 min read</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!-- About section two-->
+    <section class="py-5">
+        <div class="container px-5 my-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6 order-first order-lg-first"><img class="img-fluid rounded mb-5 mb-lg-0" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." /></div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bolder">Growth &amp; beyond</h2>
+                    <p class="lead fw-normal text-muted mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto est, ut esse a labore aliquam beatae expedita. Blanditiis impedit numquam libero molestiae et fugit cupiditate, quibusdam expedita, maiores eaque quisquam.</p>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
-</section>
+    </section>
+
+     <!-- About section two-->
+     <section class="py-5">
+        <div class="container px-5 my-5">
+            <div class="row gx-5 align-items-center">
+                <div class="col-lg-6 order-first order-lg-last"><img class="img-fluid rounded mb-5 mb-lg-0" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." /></div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bolder">Growth &amp; beyond</h2>
+                    <p class="lead fw-normal text-muted mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto est, ut esse a labore aliquam beatae expedita. Blanditiis impedit numquam libero molestiae et fugit cupiditate, quibusdam expedita, maiores eaque quisquam.</p>
+                </div>
+            </div>
+        </div>
+    </section>
         <!-- Footer-->
         <footer class="footer py-4">
             <div class="container">
